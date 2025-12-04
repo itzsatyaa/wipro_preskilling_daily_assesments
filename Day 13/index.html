@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="app-container">
+    
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#dashboard-section">Spring Flowers School</a>
+                
+                
+                <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+                <label for="menu-toggle" class="navbar-toggler">
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                </label>
+
+                <div class="navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                           
+                            <a class="nav-link" href="#dashboard-section">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="btn nav-link" href="#timetable-section">
+                                TimeTable
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content container">
+
+        
+        <section id="dashboard-section" class="content-section default-show">
+            <div class="card shadow-sm welcome-card">
+                <h2>Welcome, Student!</h2>
+                <p>This is your personalized dashboard. Use the menu above to check your grades, attendance, and important announcements.</p>
+                <a class="btn btn-primary" href="#">View Announcements</a>
+            </div>
+        </section>
+
+        
+        <section id="timetable-section" class="content-section">
+            <div class="card shadow-lg timetable-card">
+                <div class="card-header success-bg">
+                    <h3>My Class Time Table</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="timetable">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>8:00 - 9:00</td>
+                                    <td>Math</td>
+                                    <td>Science</td>
+                                    <td>English</td>
+                                    <td>Math</td>
+                                    <td>PE</td>
+                                </tr>
+                                <tr>
+                                    <td>9:00 - 10:00</td>
+                                    <td>History</td>
+                                    <td>Math</td>
+                                    <td>Art</td>
+                                    <td>History</td>
+                                    <td>Science</td>
+                                </tr>
+                                <tr>
+                                    <td>10:30 - 11:30</td>
+                                    <td>Science</td>
+                                    <td>English</td>
+                                    <td>Math</td>
+                                    <td>Physics</td>
+                                    <td>Chemistry</td>
+                                </tr>
+                                <tr>
+                                    <td>11:30 - 12:30</td>
+                                    <td>Coding</td>
+                                    <td>Library</td>
+                                    <td>History</td>
+                                    <td>Coding</td>
+                                    <td>Math</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                 <a class="btn btn-secondary" href="#dashboard-section">
+                    Back to Dashboard
+                </a>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Spring Flowers School Management System &copy; 2024. Responsive Layout using Flexbox.</p>
+        </div>
+    </footer>
+</body>
+</html>
